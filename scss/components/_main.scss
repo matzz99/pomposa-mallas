@@ -23,7 +23,7 @@ main {
                 transition: 0.4s;
                 &:hover {
                     transform: scale(1.1);
-                    color: rgb(245, 222, 179);
+                    color: $color-principal;
                 }
 
             }
@@ -162,7 +162,7 @@ main {
             display: flex;
             justify-content: center;
             align-items: center;
-            background-color: rgb(255, 214, 176);
+            background-color: $color-principal;
             width: 100%;
             height: 130px;
             font-size: 30px;
