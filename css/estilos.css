@@ -21,7 +21,7 @@ header nav {
     justify-content: end;
     margin-right: 30px; }
 
-/*-----MAIN-------*/
+/*-----INDEX-------*/
 main .hero {
   background-image: url(../img/flores-fondo-celeste.jpg);
   width: 100%;
@@ -136,6 +136,152 @@ main .tarjetaVerano2023 {
     transition: 1s; }
     main .tarjetaVerano2023 a h4:hover {
       transform: scale(1.1); }
+
+/*-----TEMPORADA---------*/
+main .temporadaNueva {
+  background-color: white; }
+  main .temporadaNueva .nuevaColeccion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffd6b0;
+    width: 100%;
+    height: 130px;
+    font-size: 30px;
+    font-family: 'Pacifico', cursive;
+    font-weight: 100px;
+    color: black; }
+  main .temporadaNueva .galeria {
+    width: 100%;
+    padding: 30px; }
+    main .temporadaNueva .galeria .fotoGaleria {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      grid-auto-rows: 350px;
+      gap: 5px; }
+      main .temporadaNueva .galeria .fotoGaleria div {
+        margin: 5px; }
+        main .temporadaNueva .galeria .fotoGaleria div img {
+          width: 100%;
+          height: 100%;
+          box-shadow: 10px 10px 13px -3px rgba(0, 0, 0, 0.8);
+          -webkit-box-shadow: 10px 10px 13px -3px rgba(0, 0, 0, 0.8);
+          -moz-box-shadow: 10px 10px 13px -3px rgba(0, 0, 0, 0.8);
+          object-fit: cover;
+          border-radius: 5px; }
+      main .temporadaNueva .galeria .fotoGaleria .mayaUno {
+        grid-column: 3 / span 2;
+        grid-row: 2  / span 2; }
+      main .temporadaNueva .galeria .fotoGaleria .mayaDos {
+        grid-column: 1 / span 2;
+        grid-row: span 2; }
+      main .temporadaNueva .galeria .fotoGaleria .mayaCinco {
+        grid-column: 5 / span 2;
+        grid-row: 1 / span 2; }
+      main .temporadaNueva .galeria .fotoGaleria .mayaSeis {
+        grid-column: span 2;
+        grid-row: span 2; }
+
+/*---------PRODUCTOS------*/
+main .tituloProductos {
+  background-color: #ffd6b0;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  main .tituloProductos h1 {
+    color: black;
+    font-family: 'Pacifico', cursive;
+    font-size: 50px;
+    font-weight: 100; }
+
+main .productos h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  font-size: 40px;
+  margin-top: 50px;
+  background-color: #fceaca; }
+
+main .productos div .carousel-inner div img {
+  width: 100%;
+  height: 400px; }
+
+/*---SOBRE NOSOTRAS---*/
+main .sobreNosotras {
+  background-color: white; }
+  main .sobreNosotras .infoPrimera {
+    background-color: #fde7d2;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center; }
+    main .sobreNosotras .infoPrimera img {
+      width: 250px;
+      height: 250px;
+      border: 4px solid #faba43; }
+  main .sobreNosotras .infoSegunda {
+    width: 100%;
+    height: 300px;
+    flex-direction: row-reverse;
+    display: flex;
+    justify-content: space-around;
+    align-items: center; }
+    main .sobreNosotras .infoSegunda img {
+      width: 250px;
+      height: 250px;
+      border: 4px solid #faba43; }
+  main .sobreNosotras .infoTercera {
+    background-color: #fde7d2;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center; }
+    main .sobreNosotras .infoTercera img {
+      width: 250px;
+      height: 250px;
+      border: 4px solid #faba43; }
+
+/*------CONTACTO------*/
+main .nuestroLocal {
+  width: 100%;
+  height: 400px;
+  text-align: center;
+  background-color: #ffd6b0; }
+  main .nuestroLocal h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    font-size: 40px;
+    font-family: 'Pacifico', cursive;
+    font-weight: 50; }
+  main .nuestroLocal div {
+    display: flex;
+    justify-content: center; }
+    main .nuestroLocal div .mapa {
+      width: 600px;
+      height: 300px; }
+
+main .formulario {
+  width: 100%;
+  height: 60vh; }
+  main .formulario h2 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 40px;
+    font-family: 'Pacifico', cursive;
+    font-weight: 50; }
+  main .formulario .campos {
+    display: flex;
+    justify-content: center;
+    text-align: center; }
 
 footer {
   background-color: #ffd6b0;
