@@ -17,10 +17,11 @@ rgb(250, 186, 67);
 %flexDos {
     display: flex;
     justify-content: space-around;
-    align-items: center;
 }
 
-%flexTres {
-    display: flex;
-    justify-content: space-around;
+@mixin flex ($flex, $justify, $align){
+    display: $flex;
+    justify-content: $justify ;
+    align-items:$align ;
 }
+

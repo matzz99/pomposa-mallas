@@ -15,11 +15,6 @@ body {
   justify-content: center;
   align-items: center; }
 
-.coleccion, .sobreNosotras .infoSegunda, .sobreNosotras .infoTercera {
-  display: flex;
-  justify-content: space-around;
-  align-items: center; }
-
 .verano2023 {
   display: flex;
   justify-content: space-around; }
@@ -59,7 +54,10 @@ header nav {
 .coleccion {
   width: 100%;
   height: 500px;
-  background-color: #f8e2ce; }
+  background-color: #f8e2ce;
+  display: flex;
+  justify-content: space-around;
+  align-items: center; }
   .coleccion div {
     text-align: center;
     position: relative;
@@ -226,7 +224,10 @@ header nav {
   .sobreNosotras .infoSegunda {
     width: 100%;
     height: 300px;
-    flex-direction: row-reverse; }
+    flex-direction: row-reverse;
+    display: flex;
+    justify-content: space-around;
+    align-items: center; }
     .sobreNosotras .infoSegunda img {
       width: 250px;
       height: 250px;
@@ -234,7 +235,10 @@ header nav {
   .sobreNosotras .infoTercera {
     background-color: #fde7d2;
     width: 100%;
-    height: 300px; }
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center; }
     .sobreNosotras .infoTercera img {
       width: 250px;
       height: 250px;
