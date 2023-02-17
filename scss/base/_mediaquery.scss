@@ -106,7 +106,7 @@
     .sobreNosotras div img {
         width: 150px;
         height: 150px;
-        border: 3px solid rgb(250, 186, 67);
+        border: 3px solid nth($colores, 5);
     }
     .sobreNosotras div p {
         font-size: 15px;
@@ -315,7 +315,7 @@
     .sobreNosotras img {
         width: 100px;
         height: 100px;
-        border: 2px solid rgb(250, 186, 67);
+        border: 2px solid nth($colores, 5);
     }
     .sobreNosotras div p {
         font-size: 7px;

@@ -1,7 +1,7 @@
 
 
 footer {
-    background-color: $color-principal;
+    background-color: nth($colores, 1);
     height: 170px;
     div {
         display: flex;
