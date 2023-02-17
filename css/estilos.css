@@ -10,6 +10,20 @@
 body {
   font-family: 'Quicksand', sans-serif; }
 
+.hero, .temporadaNueva .nuevaColeccion, .productos h2, .nuestroLocal h2, .formulario h2, .formulario .campos, footer div {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.coleccion, .sobreNosotras .infoSegunda, .sobreNosotras .infoTercera {
+  display: flex;
+  justify-content: space-around;
+  align-items: center; }
+
+.verano2023 {
+  display: flex;
+  justify-content: space-around; }
+
 header nav {
   background-color: white; }
   header nav div a img {
@@ -28,10 +42,7 @@ header nav {
   height: 88vh;
   background-position: center;
   background-size: auto;
-  background-attachment: fixed;
-  display: flex;
-  justify-content: center;
-  align-items: center; }
+  background-attachment: fixed; }
   .hero a {
     text-decoration: none; }
     .hero a h1 {
@@ -48,10 +59,7 @@ header nav {
 .coleccion {
   width: 100%;
   height: 500px;
-  background-color: #f8e2ce;
-  display: flex;
-  justify-content: space-around;
-  align-items: center; }
+  background-color: #f8e2ce; }
   .coleccion div {
     text-align: center;
     position: relative;
@@ -97,9 +105,7 @@ header nav {
     border-radius: 20px; }
 
 .verano2023 {
-  background-color: white;
-  display: flex;
-  justify-content: space-around; }
+  background-color: white; }
   .verano2023 div {
     margin: 20px; }
     .verano2023 div h3 {
@@ -141,9 +147,6 @@ header nav {
 .temporadaNueva {
   background-color: white; }
   .temporadaNueva .nuevaColeccion {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     background-color: wheat;
     width: 100%;
     height: 130px;
@@ -197,9 +200,6 @@ header nav {
     font-weight: 100; }
 
 .productos h2 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   width: 100%;
   font-size: 40px;
   margin-top: 50px;
@@ -226,10 +226,7 @@ header nav {
   .sobreNosotras .infoSegunda {
     width: 100%;
     height: 300px;
-    flex-direction: row-reverse;
-    display: flex;
-    justify-content: space-around;
-    align-items: center; }
+    flex-direction: row-reverse; }
     .sobreNosotras .infoSegunda img {
       width: 250px;
       height: 250px;
@@ -237,10 +234,7 @@ header nav {
   .sobreNosotras .infoTercera {
     background-color: #fde7d2;
     width: 100%;
-    height: 300px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center; }
+    height: 300px; }
     .sobreNosotras .infoTercera img {
       width: 250px;
       height: 250px;
@@ -253,9 +247,6 @@ header nav {
   text-align: center;
   background-color: #ffd6b0; }
   .nuestroLocal h2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     margin-bottom: 20px;
     font-size: 40px;
     font-family: 'Pacifico', cursive;
@@ -271,36 +262,25 @@ header nav {
   width: 100%;
   height: 60vh; }
   .formulario h2 {
-    display: flex;
-    justify-content: center;
-    text-align: center;
     margin-bottom: 20px;
     font-size: 40px;
     font-family: 'Pacifico', cursive;
     font-weight: 50; }
-  .formulario .campos {
-    display: flex;
-    justify-content: center;
-    text-align: center; }
 
 footer {
   background-color: wheat;
   height: 170px; }
-  footer div {
-    display: flex;
-    align-items: center;
-    justify-content: center; }
-    footer div a img {
-      width: 25px;
-      height: 25px;
-      margin: 20px 10px 2px 10px;
-      transition: 0.4s; }
-      footer div a img:hover {
-        transform: scale(1.5); }
-    footer div h4 {
-      margin-left: 10px;
-      margin-top: 25px;
-      font-size: 15px; }
+  footer div a img {
+    width: 25px;
+    height: 25px;
+    margin: 20px 10px 2px 10px;
+    transition: 0.4s; }
+    footer div a img:hover {
+      transform: scale(1.5); }
+  footer div h4 {
+    margin-left: 10px;
+    margin-top: 25px;
+    font-size: 15px; }
 
 @media screen and (max-width: 1100px) {
   .coleccion div img {

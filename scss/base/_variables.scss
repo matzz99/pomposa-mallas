@@ -7,3 +7,20 @@ rgb(255, 255, 255),
 rgb(248, 226, 206),
 rgb(255, 214, 176),
 rgb(250, 186, 67);
+
+%flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+%flexDos {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+%flexTres {
+    display: flex;
+    justify-content: space-around;
+}

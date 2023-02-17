@@ -4,9 +4,7 @@ footer {
     background-color: nth($colores, 1);
     height: 170px;
     div {
-        display: flex;
-        align-items: center;
-        justify-content: center;
+        @extend %flex;
         a {
             img {
                 width: 25px;
